@@ -1,8 +1,8 @@
 # FORME
 
-> 🔨 This project is in development process
-
 [![Commit][commit-shield]][commit-url]
+
+> 🔨 This project is in development process
 
 This project is personal daily management tool for web developers
 
