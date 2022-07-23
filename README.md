@@ -10,8 +10,12 @@ This project is personal daily management tool for web developers
 ```shell
 git clone https://github.com/kevinlin-crypto/forme
 cd forme
+yarn install
 yarn start
 ```
+
+## To-do list
+- [ ] Set up job search management tool
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
