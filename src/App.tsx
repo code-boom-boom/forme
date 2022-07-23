@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from './components/Header'
+import Calendar from './components/Calendar'
 
 function App() {
   return (
-    <div className="main">
-      <h1 className="text-center">This is new webpack installed app</h1>
+    <div className="main flex flex-col">
+      <Header />
+      <Calendar />
     </div>
   )
 }
