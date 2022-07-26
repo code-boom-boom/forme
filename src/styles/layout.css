@@ -1,0 +1,21 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.app > .app-header-container {
+    position: absolute;
+    height: 95px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.app > .app-body-container {
+    position: absolute;
+    top: 95px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

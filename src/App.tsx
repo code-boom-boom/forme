@@ -1,13 +1,17 @@
 import React from 'react'
-import Header from './components/Header'
-import Calendar from './components/Calendar'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import DefaultLayout from './layouts/DefaultLayout'
+import Dashboard from './pages/Dashboard'
 
 function App() {
   return (
-    <div className="main flex flex-col">
-      <Header />
-      <Calendar />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<DefaultLayout />}>
+          <Route index element={<Dashboard />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
