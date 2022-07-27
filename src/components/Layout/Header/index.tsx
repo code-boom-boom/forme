@@ -4,6 +4,7 @@ import { Menu } from 'react-feather'
 import { Notification } from 'iconsax-react'
 import AccountMenu from './AccountMenu'
 import SearchBox from './SearchBox'
+import HeaderMenu from './HeaderMenu'
 
 const AppHeader: React.FC = () => {
   return (
@@ -11,6 +12,9 @@ const AppHeader: React.FC = () => {
       <div className="flex items-center gap-4">
         <IconButton icon={<Menu size={24} color="#C3CAD9" />} />
         <span className="text-xl font-bold text-text-dark">FORME</span>
+      </div>
+      <div>
+        <HeaderMenu />
       </div>
       <div className="flex items-center gap-4">
         <SearchBox />
