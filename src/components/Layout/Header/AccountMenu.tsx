@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from '../assets/img/avatar.png'
+import avatar from '../../../assets/img/avatar.png'
 
 const AccountMenu: React.FC = () => {
   return (
