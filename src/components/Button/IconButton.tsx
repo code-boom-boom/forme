@@ -3,7 +3,7 @@ import classNames from 'classnames'
 
 interface IconButtonProp {
   icon: React.ReactNode
-  className: string
+  className?: string
 }
 
 const IconButton: React.FC<IconButtonProp> = ({ icon , className }) => {
