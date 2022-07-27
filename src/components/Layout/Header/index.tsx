@@ -8,7 +8,7 @@ import HeaderMenu from './HeaderMenu'
 
 const AppHeader: React.FC = () => {
   return (
-    <div className="p-6 flex items-center justify-between border-b border-gray-200 gap-8">
+    <div className="h-full px-6 flex items-center justify-between border-b border-gray-200 gap-8">
       <div className="flex items-center gap-4">
         <IconButton icon={<Menu size={24} color="#C3CAD9" />} />
         <span className="text-xl font-bold text-text-dark">FORME</span>
